@@ -1,6 +1,6 @@
 # ARUNA - Platform Digital Edukasi Bahari
 
-ARUNA adalah platform berbasis web yang menyajikan edukasi interaktif mengenai ekosistem laut, lingkungan bahari, serta isu pencemaran sampah. Proyek ini dikembangkan sebagai bagian dari inovasi Autonomous Surface Vehicle (ASV) untuk mendukung edukasi publik dan kompetisi riset.
+ARUNA adalah platform berbasis web yang menyajikan edukasi interaktif mengenai ekosistem laut, lingkungan bahari, serta isu pencemaran sampah.
 
 ---
 
