@@ -1,0 +1,1124 @@
+/* ===========================
+        HERO
+=========================== */
+
+.hero{
+
+    background:linear-gradient(135deg,#EAF9FF,#CFEFFF);
+
+    min-height:90vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.hero-subtitle{
+
+    color:#0096D6;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+}
+
+.hero-title{
+
+    font-size:70px;
+
+    font-weight:700;
+
+}
+
+.hero-text{
+
+    font-size:20px;
+
+    margin:25px 0;
+
+}
+
+.btn-aruna{
+
+    background:#0096D6;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    font-weight:600;
+
+}
+
+.btn-aruna:hover{
+
+    background:#0078AA;
+
+    color:white;
+
+}
+
+.hero-image{
+    width:60%;
+    max-width:400px;
+}
+
+/* ===========================
+        BERITA
+=========================== */
+
+.news{
+
+    padding:100px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+    font-weight:700;
+
+}
+
+.news-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.news-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.news-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.news-card h4{
+
+    padding:20px;
+
+}
+
+.news-card p{
+
+    padding:0 20px 20px;
+
+}
+.news-card{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+    background:white;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.news-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.news-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.news-card h5{
+
+    font-weight:600;
+
+}
+
+.news-card p{
+
+    font-size:14px;
+
+    color:#666;
+
+}
+
+/* ===========================
+   DASHBOARD PENGETAHUAN
+=========================== */
+
+.knowledge{
+
+    background:#F5FBFF;
+
+}
+
+.knowledge-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:40px 25px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    height:100%;
+
+}
+
+.knowledge-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,150,214,.2);
+
+}
+
+.knowledge-icon{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.knowledge-card h4{
+
+    color:#263238;
+
+    font-weight:600;
+
+}
+.materi-page{
+
+    padding:90px 0;
+
+}
+
+.type-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.type-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.type-card{
+
+    .type-card p{
+    font-size: 15px;
+    line-height: 1.6;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+}
+.type-card{
+
+    background:#fff;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    height:100%;
+
+}
+
+.type-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.type-card h2{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+
+}
+
+.type-card h4{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.type-card p{
+
+    color:#666;
+
+}
+#wasteImage{
+
+width:170px;
+
+margin-bottom:20px;
+
+transition:.4s;
+
+}
+
+.showAnimation{
+    animation:none;
+}
+
+.logo-navbar{
+
+    height:100px;
+    width:auto;
+    transition:.3s;
+
+}
+
+.logo-navbar:hover{
+
+    transform:scale(1.03);
+
+}
+.navbar-brand{
+    .navbar-brand{
+    margin-left: -50px;
+}
+}
+/* ==========================
+   NAVBAR STICKY
+========================== */
+
+.navbar{
+
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+    background: #ffffff !important;
+
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+
+    min-height: 80px;
+
+}
+
+.logo-navbar{
+
+    height:90px;
+    width:auto;
+    display:block;
+
+}
+
+.navbar-brand{
+
+    padding:0;
+    margin:0;
+
+}
+.bot-message{
+
+background:#ffffff;
+
+padding:18px;
+
+border-radius:15px;
+
+margin-bottom:20px;
+
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+
+}
+
+#chatBox{
+
+scroll-behavior:smooth;
+
+}
+
+#chatBox .badge{
+
+font-size:15px;
+
+white-space:normal;
+
+line-height:1.6;
+
+border-radius:15px;
+
+max-width:80%;
+
+}
+
+/* ===========================
+   ACTIVE NAVBAR
+=========================== */
+
+.navbar .nav-link{
+
+    position:relative;
+    transition:.3s;
+    color:#333;
+
+}
+
+.navbar .nav-link:hover{
+
+    color:#0d6efd;
+
+}
+
+.navbar .nav-link.active{
+
+    color:#0d6efd !important;
+    font-weight:700;
+
+}
+
+.navbar .nav-link.active::after{
+
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+
+    width:100%;
+    height:3px;
+
+    background:#0d6efd;
+    border-radius:20px;
+
+}
+
+.materi-card{
+
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+
+}
+
+.materi-card:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 12px 28px rgba(0,0,0,.12);
+
+}
+
+.materi-card img{
+
+    width:100%;
+    height:200px;
+    object-fit:cover;
+
+}
+
+.materi-content{
+
+    padding:20px;
+
+}
+
+.materi-content h4{
+
+    font-weight:700;
+    margin-bottom:10px;
+    color:#222;
+
+}
+
+.materi-content p{
+
+    color:#666;
+    font-size:14px;
+    min-height:60px;
+
+}
+
+.materi-info{
+
+    margin-bottom:15px;
+
+}
+
+.materi-info span{
+
+    background:#eef5ff;
+    color:#0d6efd;
+    font-size:12px;
+    font-weight:600;
+    padding:5px 12px;
+    border-radius:20px;
+
+}
+
+/* ==================================
+        PRODUCT HERO
+================================== */
+
+.product-hero{
+
+    min-height:90vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#EAF9FF,#CFEFFF);
+
+}
+
+.product-subtitle{
+
+    color:#0096D6;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+.product-title{
+
+    font-size:60px;
+
+    font-weight:700;
+
+    color:#083B66;
+
+    margin-bottom:25px;
+
+}
+
+.product-text{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+    color:#555;
+
+}
+
+.product-image{
+
+    width:90%;
+
+    max-width:650px;
+
+    transition:.4s;
+
+}
+
+.product-image:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* ==================================
+        ABOUT PRODUCT
+================================== */
+
+.about-product{
+
+    padding:100px 0;
+
+    background:#fff;
+
+}
+
+.section-subtitle{
+
+    color:#0096D6;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+.section-title{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#083B66;
+
+    margin-bottom:25px;
+
+}
+
+.section-description{
+
+    max-width:850px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#666;
+
+}
+
+/* ==================================
+        FEATURE
+================================== */
+
+.feature-product{
+
+    padding:100px 0;
+
+    background:#F7FCFF;
+
+}
+
+.feature-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    height:100%;
+
+    transition:.35s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.feature-icon{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+
+}
+
+.feature-card h4{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.feature-card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+/* ==================================
+        WORKFLOW
+================================== */
+
+.workflow-section{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+.workflow-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:30px 20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:100%;
+
+}
+
+.workflow-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.workflow-icon{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+}
+
+.workflow-card h5{
+
+    font-weight:700;
+
+    color:#083B66;
+
+    margin-bottom:15px;
+
+}
+
+.workflow-card p{
+
+    font-size:15px;
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+/*=================================
+      DOCUMENTATION
+==================================*/
+
+.documentation-section{
+
+    padding:110px 0;
+
+    background:#F7FCFF;
+
+}
+
+.documentation-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    height:100%;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.documentation-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.documentation-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.documentation-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.documentation-content{
+
+    padding:25px;
+
+}
+
+.documentation-content h4{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+    color:#083B66;
+
+}
+
+.documentation-content p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/*=============================
+      COMPONENT
+=============================*/
+
+.component-section{
+
+    padding:120px 0;
+
+    background:white;
+
+}
+
+.boat-wrapper{
+
+    position:relative;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.boat-image{
+
+    width:100%;
+
+}
+
+.point{
+
+    position:absolute;
+
+    width:30px;
+
+    height:30px;
+
+    border-radius:50%;
+
+    background:#0096D6;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:rgb(255, 255, 255);
+
+    cursor:pointer;
+
+    animation:pulse 2s infinite;
+
+}
+
+.point span{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+.tooltip-box{
+
+    position:absolute;
+
+    width:220px;
+
+    background:rgb(8, 8, 8);
+
+    padding:15px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.3s;
+
+    z-index:99;
+
+}
+
+.point:hover .tooltip-box{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+.fpv{
+
+    top:15%;
+
+    left:42%;
+
+}
+
+.fpv .tooltip-box{
+
+    left:40px;
+
+    top:-20px;
+
+}
+
+.motor{
+
+    bottom:37%;
+
+    left:60%;
+
+}
+
+.motor .tooltip-box{
+
+    left:40px;
+
+}
+
+.conveyor{
+
+    top:40%;
+
+    left:40%;
+
+}
+
+.conveyor .tooltip-box{
+
+    left:40px;
+
+}
+
+.battery{
+
+    top:42%;
+
+    left:80%;
+
+}
+
+.battery .tooltip-box{
+
+    right:40px;
+
+}
+
+@keyframes pulse{
+
+0%{
+
+box-shadow:0 0 0 0 rgba(0,150,214,.7);
+
+}
+
+70%{
+
+box-shadow:0 0 0 15px rgba(0,150,214,0);
+
+}
+
+100%{
+
+box-shadow:0 0 0 0 rgba(0,150,214,0);
+
+}
+
+}
+
+/*=================================
+      DASHBOARD
+==================================*/
+
+.dashboard-section{
+
+    padding:120px 0;
+
+    background:#F7FCFF;
+
+}
+
+.dashboard-image{
+
+    width:100%;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+    transition:.4s;
+
+}
+
+.dashboard-image:hover{
+
+    transform:scale(1.02);
+
+}
+
+.closing-product{
+
+    padding:120px 0;
+
+    background:linear-gradient(135deg,#0096D6,#0077B6);
+
+    color:white;
+
+}
+
+.closing-product h2{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.closing-product p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    margin-bottom:40px;
+
+    opacity:.9;
+
+}
+
+/*=================================
+      DASHBOARD FEATURE
+==================================*/
+
+.dashboard-feature{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin-top:40px;
+
+}
+
+.feature-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:18px 22px;
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.feature-item:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+.feature-item span{
+
+    font-size:28px;
+
+}
+
+.feature-item p{
+
+    margin:0;
+
+    font-weight:600;
+
+    color:#083B66;
+
+}
